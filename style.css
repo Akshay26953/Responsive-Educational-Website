@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=M+PLUS+Rounded+1c:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+    scroll-behavior: smooth;
+}
+/* ==Header== */
+.section1 {
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    box-shadow: 1px 1px 5px rgb(197 197 197);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.nav-logo a {
+    color: rgb(53, 138, 177);
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    font-size: 23px;
+}
+.nav-menu li{
+    list-style: none;
+    margin: 0 15px;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-menu li a:hover {
+    color: rgb(53, 138, 177);
+}
+.btn-nav {
+    padding: 3px 15px;
+    margin-left: 15px;
+}
+.bar div{
+    display: none;
+    width: 30px;
+  height: 5px;
+  background-color: rgb(53, 138, 177);
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+/* ==Main Content== */
+.section2 {
+    margin-top: 30px;
+    padding: 0 30px;
+    min-height: 85vh;
+}
+.title {
+    width: 60%;
+    padding-bottom: 50px;
+}
+.title h1 {
+    color: rgb(53, 138, 177);
+    width: 400px;
+}
+.title h3 {
+    color: rgb(58, 57, 57);
+    max-width: 90%;
+    margin-top: 20px;
+}
+.btn-lg {
+    padding: 8px 20px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.btn-lg a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.poster {
+    width: 40%;
+    /* margin-left: 20px; */
+    /* float: right; */
+}
+
+.all-sec {
+    /* min-height: 90vh; */
+    width: 100%;
+    padding-top: 65px;
+}
+.all-sec h2{
+    text-align: center;
+    color: rgb(53, 138, 177);
+}
+.sec h4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.sec p{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(102, 102, 102);
+}
+.sub-head {
+    padding: 20px 20px 0 20px;
+}
+.sub-head h6{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.sub-head p{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(102, 102, 102);
+}
+.boxes {
+    margin: 50px 0;
+}
+.box {
+    width: 25%;
+    padding: 10px;
+}
+.box img {
+    border-radius: 15px;
+}
+.box h6{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+    color: rgb(53, 138, 177);
+}
+.box p{
+    text-align: center;
+    padding: 0 15px;
+    color: rgb(102, 102, 102);
+}
+
+.course-p {
+    font-size: 18px;
+    text-align: center;
+    color: rgb(102, 102, 102);
+    margin-top: 10px;
+}
+.box1 {
+    width: 30%;
+}
+.box-image {
+    width: 100%;
+}
+.box-text {
+    padding: 20px;
+}
+.box-text h4 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(53, 138, 177);;
+}
+.course-box {
+    margin: 30px 0 ;
+
+}
+.box-text p{
+    text-align: center;
+}
+.box-text a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+/* .section6 {
+    background-image: url(https://www.themezaa.com/html/leadgen/demo/e-learning/images/bg-image/agency-subscribe-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+} */
+.section7 form {
+    margin-top: 20px;
+    width: 500px;
+}
+.section7 label{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.section7 input[type=text],[type=email], textarea{
+    padding: 5px 10px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: rgb(247, 245, 245);
+}
+#fphone{
+    height: 200px;
+    text-align: start;
+}
+
+/* ==FOOTER== */
+.section8 {
+    width: 100%;
+    border-top: 1px solid rgba(53, 138, 177, 0.438);
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+.section8 h6 {
+    font-size: 15px;
+}
+.section8 a {
+    text-decoration: none;
+    color: rgb(53, 138, 177);
+}
+.foot {
+    text-align: center;
+    color: rgb(102, 102, 102);
+    margin-top: 20px;
+}

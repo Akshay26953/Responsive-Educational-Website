@@ -1,0 +1,74 @@
+.testbg1 {
+    background-color: red;
+}
+.testbg2 {
+    background-color: yellow;
+}
+.bg-gray {
+    background-color: rgb(240, 240, 240);
+}
+.container70 {
+    width: 80%;
+}
+.container80 {
+    width: 80%;
+}
+.container90 {
+    width: 90%;
+}
+.container100 {
+    width: 100%;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.w50 {
+    width: 50%;
+}
+.flex {
+    display: flex;
+}
+.block {
+    display: block;
+}
+.h-center {
+    justify-content: center;
+}
+.v-center {
+    align-items: center;
+}
+.end {
+    align-items: flex-end;
+}
+.between {
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 1.1;
+}
+h2 {
+    font-size: 35px;
+}
+h3 {
+    font-size: 25px;
+}
+.btn {
+    background-color: rgb(53, 138, 177);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(78, 77, 77);
+
+}
+.min-h90 {
+    min-height: 90vh ;
+}
+.min-h60 {
+    min-height: 60vh;
+}

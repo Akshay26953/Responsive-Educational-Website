@@ -1,0 +1,68 @@
+@media only screen and (max-width: 900px) {
+
+    .bar div {
+        display: block;
+    }
+
+    .nav-menu ul li,
+    button {
+        display: none;
+    }
+    .title1 h1,h3{
+        width: 100%;
+    }
+    .title1 h1{
+       font-size: 40px;
+    }
+    .title1 h3{
+        font-size: 25px;
+        text-align: justify;
+     }
+    .poster, .title {
+        width: 90%;
+    }
+    .res-block {
+        display: block;
+    }
+
+    .res-flex {
+        display: flex;
+    }
+    .res-colr {
+        flex-direction: column-reverse;
+    }
+    .res-w70 {
+        width: 70%;
+    }
+    .res-w75 {
+        width: 75%;
+    }
+    .res-w80 {
+        width: 80%;
+    }
+
+    .res-mx-auto {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .res-con80 {
+        width: 80%;
+    }
+
+    .section7 form {
+        margin-top: 20px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* ==FOOTER== */
+    .res-col {
+        flex-direction: column;
+    }
+
+    .section8 h6 {
+        margin-top: 15px;
+    }
+}
